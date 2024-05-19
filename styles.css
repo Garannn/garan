@@ -1,0 +1,160 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #111213;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding-top: 20px;
+}
+
+.button {
+  width: 440px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  position: absolute; 
+  top: 20px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+}
+
+.button button {
+  height: 100%;
+  flex: 1;
+  margin: 0 10px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.button button:hover {
+  background-color: #abb5c0;
+}
+
+.company {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  color: rgb(247, 193, 0);
+  font-size: 16px;
+  z-index: 1000;
+}
+
+.right-button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: #ffee00;
+  color: rgb(0, 0, 0);
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.right-button:hover {
+  background-color: #111213;
+  color: white;
+}
+
+.block1 {
+  position: absolute; 
+  background-color: #ffffff;
+  border-radius: 30px;
+  width: 480px;
+  height: 582px;
+  top: 50%; 
+  right: 5%; 
+  transform: translateY(-50%); 
+  padding: 20px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  color: #333;
+}
+
+.block1 .image {
+  width: 412px;
+  height: 258px;
+  display: block; 
+  margin: 0 auto 20px; 
+}
+.block1 h2 {
+  text-align: left; 
+  margin-bottom: 10px;
+  color: #000; 
+}
+
+.block1 p {
+  text-align: justify; 
+}
+
+.block2 {
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 30px;
+  width: 1021px;
+  height: 582px;
+  top: 50%;
+  left: 5%; 
+  transform: translateY(-50%);
+  padding: 20px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.block2 h2 {
+  color: #000; 
+  text-align: left;
+    margin-bottom: 10px;
+}
+
+.block2 p {
+    color: #333; 
+    text-align: justify;
+}
+
+.nazad {
+  width: 105px;
+  height: 32px;
+  background-color: transparent;
+  border: none;
+  border-radius: 8px;
+  color: #ffd166;
+  font-size: 15px;
+  cursor: pointer;
+  position: absolute;
+  left: 75px;
+  top: 150px;
+  
+  transition: all 0.3s ease; 
+  
+  &:hover {
+    background-color: #ffdd80;
+    color: #000;
+    box-shadow: 0 0 5px #ffd166;
+  }
+}
+
+.Yaroslav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
